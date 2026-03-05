@@ -1,0 +1,47 @@
+/*Xandro Gael Bracamontes Delgado*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #abd5f1;
+}
+
+.caja {
+    width: 200px;
+    /* Altura automática según el contenido */
+    background-color: rgb(110, 227, 172);
+    border: 2px solid rgb(0, 0, 17);
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Identificadores para personalizar cada caja */
+#caja1 {
+    /* mantiene valores por defecto */
+    background-color: rgb(184, 19, 216);
+    border: 2px solid rgb(0, 0, 17);
+    margin: 5px;
+    padding: 13px;
+}
+
+#caja2 {
+    /* modificaremos aquí */
+    background-color: rgb(255, 192, 203);
+    border: 2px solid rgb(139, 0, 0);
+    margin: 5px;
+    padding: 13px;
+}
+
+#caja3 {
+    /* modificaremos aquí */
+    background-color: rgb(255, 255, 0);
+    border: 2px solid rgb(255, 140, 0);
+    margin: 5px;
+    padding: 18px;
+}
